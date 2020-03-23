@@ -1,0 +1,4 @@
+*.swp
+ssh-honeypot
+*_rsa
+*.pub
