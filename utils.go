@@ -3,9 +3,13 @@ package main
 import (
 	// standard
 	"encoding/json"
+	"io/ioutil"
 	"net"
 	"os"
 	"strings"
+
+	// x
+	"golang.org/x/crypto/ssh"
 )
 
 func parseIp(addr net.Addr) string {

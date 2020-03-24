@@ -2,7 +2,7 @@ package main
 
 import (
 	// standard
-	"io/ioutil"
+	// "io/ioutil"
 	"log"
 	"net"
 	"os"
